@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Banner Teletón - Solo Video</title>
+<title>Banner Teletón - Twitch</title>
 
 <style>
   body, html {
@@ -28,8 +28,8 @@
   /* VIDEO sobre el banner */
   .banner-video {
     position: absolute;
-    top: 14px;      /* distancia desde arriba */
-    left: 30px;     /* distancia desde la izquierda */
+    top: 14px;
+    left: 30px;
     width: 450px;
     height: 270px;
     border: 0;
@@ -48,14 +48,13 @@
     src="https://www.epicentrochile.com/wp-content/uploads/2025/12/banner-especial_debate_archi_desk.png"
     alt="Banner">
 
-  <!-- VIDEO Twitch integrado sobre el banner -->
+  <!-- VIDEO Twitch integrado (según documentación oficial) -->
   <iframe
-    id="vtwitch"
     class="banner-video"
-    src="https://player.twitch.tv/?channel=epicentroradio&parent=epicentrochile.com&parent=www.gibhub.com"
-    allowfullscreen
+    src="https://player.twitch.tv/?channel=epicentroradio&parent=epicentrochile.com&parent=www.epicentrochile.com"
     frameborder="0"
-    scrolling="no">
+    scrolling="no"
+    allowfullscreen>
   </iframe>
 
 </div>
